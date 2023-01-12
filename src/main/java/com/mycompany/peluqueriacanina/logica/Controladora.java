@@ -10,6 +10,9 @@ public class Controladora {
 
     public void guardar( String raza, String color, String observaciones, String alergico, String atenEsp, String nombreDuenio, String celDuenio, String nombre) {
 
+        System.out.println("Iniciando Proceso de Guardar " );
+        
+        
         //creamos el dueño y asignamos sus valores
         Duenio duenio = new Duenio();
         duenio.setNombre(nombreDuenio);
